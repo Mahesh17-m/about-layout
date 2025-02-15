@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Header */
+header {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 60px 0;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* Sections */
+section {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 50px;
+  margin: 30px 0;
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+  transform: scale(1.05);
+}
+
+/* Team Section */
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.member {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.4s, box-shadow 0.4s;
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.member:hover {
+  transform: translateY(-15px);
+  box-shadow: 0px 15px 30px rgba(255, 255, 255, 0.4);
+}
+
+.member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Contact Section */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 18px;
+  padding: 8px 0;
+  transition: color 0.3s, transform 0.3s;
+}
+
+ul li:hover {
+  transform: translateX(10px);
+  color: #ffd700;
+}
+
+ul li a {
+  color: #ffd700;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+ul li a:hover {
+  color: #ff4500;
+}
+
+/* Footer */
+footer {
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 10px;
+}
